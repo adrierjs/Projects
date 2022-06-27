@@ -1,2 +1,2 @@
 # Projects
-Projetos pssoais
+Projetos pessoais
