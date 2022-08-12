@@ -2,7 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package provaII;
+package test;
+
+import classes.ContaCorrente;
+import classes.ContaPoupanca;
+import classes.Lista;
+import classes.Pessoa;
 
 import java.util.Scanner;
 import javax.swing.JOptionPane;
@@ -14,7 +19,6 @@ import javax.swing.JOptionPane;
 public class Driver {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Lista controle = new Lista();
         int op = 0;
         ContaCorrente cc = new ContaCorrente();
